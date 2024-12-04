@@ -1,0 +1,704 @@
+[
+  {
+    "categoria": "Fertilizantes",
+    "Id": 1,
+    "nombre": "UREA",
+    "precio": 10,
+    "descripcion": "Es un fertilizante nitrogenado con 46% de nitrógeno, ideal para promover el crecimiento.",
+    "descripcion1": "La UREA es un fertilizante nitrogenado de rápida acción, que contiene aproximadamente un 46% de nitrógeno. Es ampliamente utilizado en la agricultura para promover el crecimiento vegetativo de las plantas, especialmente en cultivos como maíz, arroz y trigo. El nitrógeno en la urea es esencial para la formación de proteínas y clorofila, favoreciendo un desarrollo saludable y una mayor producción de hojas. Además, la urea es soluble en agua, lo que permite su rápida absorción por las plantas cuando se aplica correctamente.",
+    "imagen": "/static/IMAGENES/Urea.png"
+  },
+  {
+    "categoria": "Fertilizantes",
+    "Id": 2,
+    "nombre": "Sulfato De Amonio",
+    "precio": 12.5,
+    "descripcion": "Es un fertilizante que contiene un 21% de nitrógeno y 24% de azufre.",
+    "descripcion1": "El Sulfato de Amonio es un fertilizante nitrogenado que contiene aproximadamente un 21% de nitrógeno y un 24% de azufre. Es utilizado para corregir deficiencias de nitrógeno y azufre en los cultivos. Este fertilizante es ideal para suelos alcalinos y se utiliza en una amplia variedad de cultivos, como cereales, legumbres y hortalizas. El azufre presente en el sulfato de amonio también ayuda a mejorar la calidad del suelo y favorece la formación de proteínas en las plantas. Además, su acción ácida ayuda a reducir el pH en suelos alcalinos.",
+    "imagen": "/static/IMAGENES/SulfatoDeAmonio.jpg"
+  },
+  {
+    "categoria": "Fertilizantes",
+    "Id": 3,
+    "nombre": "Nitrato De Amonio",
+    "precio": 15,
+    "descripcion": "Contiene aproximadamente 34% de nitrógeno, amonio y nitrato.",
+    "descripcion1": "El Nitrato de Amonio es un fertilizante nitrogenado que contiene aproximadamente un 34-35% de nitrógeno, en forma de nitrato y amonio. Este fertilizante se utiliza principalmente para promover el crecimiento rápido de las plantas, ya que proporciona una fuente inmediata de nitrógeno, esencial para la formación de proteínas y el desarrollo vegetativo. Es especialmente eficaz en cultivos como maíz, trigo, arroz y hortalizas. El nitrógeno en su forma de nitrato es fácilmente absorbido por las raíces, lo que hace que el Nitrato de Amonio sea ideal para su aplicación en suelos con deficiencias de este nutriente.",
+    "imagen": "/static/IMAGENES/Nitrato de amonio.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 4,
+    "nombre": "Perpetuo",
+    "precio": 14.5,
+    "descripcion": "Acción prolongada y amplio espectro, eficaz para el control de una variedad de insectos.",
+    "descripcion1": "Perpetuo es un insecticida de amplio espectro utilizado para el control de una variedad de plagas en cultivos agrícolas, jardines y áreas urbanas. Su fórmula contiene ingredientes activos que actúan de manera efectiva contra insectos como pulgones, moscas, orugas, ácaros y otros insectos dañinos para las plantas. El producto tiene una acción de contacto y sistémica, lo que significa que puede ser absorbido por las plantas y controlará las plagas tanto en su superficie como en su interior. Es conocido por su efectividad duradera, lo que permite un control prolongado de las plagas, ayudando a mantener los cultivos saludables y productivos.",
+    "imagen": "/server/IMAGENES/perpetuo.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 5,
+    "nombre": "Majestic 120 SC",
+    "precio": 18,
+    "descripcion": "Es un insecticida de amplio espectro formulado en suspensión concentrada (SC).",
+    "descripcion1": "Majestic 120 SC es un insecticida de contacto y acción sistémica, formulado para controlar una amplia gama de plagas en cultivos agrícolas. Contiene ingredientes activos que actúan sobre insectos como moscas, pulgones, orugas, trips, entre otros. Su formulación en suspensión concentrada (SC) permite una aplicación más eficiente y un control prolongado de las plagas. Además, Majestic 120 SC es conocido por su baja toxicidad para humanos y animales, lo que lo hace adecuado para su uso en cultivos sensibles. Gracias a su acción rápida y efectiva, es una excelente opción para proteger la salud de las plantas y mejorar el rendimiento de los cultivos.",
+    "imagen": "/server/IMAGENES/Majestic120.png"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 6,
+    "nombre": "Bio Grow",
+    "precio": 13,
+    "descripcion": "Es de origen natural, diseñado para el control sostenible de plagas en cultivos.",
+    "descripcion1": "BioGrow es un insecticida biológico basado en ingredientes activos naturales, diseñado para el control de plagas en cultivos agrícolas de manera segura y ecológica. Este insecticida utiliza organismos beneficiosos, como bacterias y extractos vegetales, para atacar y eliminar insectos dañinos sin afectar negativamente el medio ambiente ni a los insectos benéficos. BioGrow es ideal para la agricultura orgánica y su acción está dirigida a plagas comunes como ácaros, pulgones, moscas blancas y otros insectos. Además, es respetuoso con la fauna local y no presenta riesgos de residuos en los cultivos, garantizando productos más seguros para el consumo humano.",
+    "imagen": "/server/IMAGENES/biogrow.webp"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 7,
+    "nombre": "Galgotrin",
+    "precio": 16,
+    "descripcion": "Insecticida de contacto utilizado para el control de una amplia gama de plagas.",
+    "descripcion1": "Galgotrin es un insecticida de amplio espectro, eficaz para el control de múltiples plagas en diversos cultivos agrícolas. Formulado a base de cipermetrina, un piretroide sintético, actúa como neurotóxico en los insectos, alterando sus impulsos nerviosos y causando parálisis y muerte. Galgotrin es efectivo contra plagas como pulgones, orugas, trips, escarabajos y otras plagas masticadoras y chupadoras que afectan cultivos de frutas, hortalizas, cereales y plantas ornamentales. Gracias a su acción rápida y residual, proporciona protección prolongada para las plantas, incluso en condiciones climáticas adversas. Además, Galgotrin es compatible con programas de manejo integrado de plagas (MIP) cuando se aplica de forma adecuada, ayudando a controlar plagas sin afectar gravemente a insectos benéficos.",
+    "imagen": "/server/IMAGENES/Galgotrin.png"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 8,
+    "nombre": "EcoGrow",
+    "precio": 11.5,
+    "descripcion": "Ecológico formulado para el control de plagas de manera segura y sostenible.",
+    "descripcion1": "EcoGrow es un insecticida biológico y ecológico, formulado con ingredientes naturales para el control de plagas en cultivos agrícolas de manera segura y respetuosa con el medio ambiente. Utiliza componentes derivados de extractos vegetales y microorganismos beneficiosos que atacan a las plagas sin dañar la biodiversidad ni los insectos benéficos. EcoGrow es ideal para la agricultura orgánica, controlando plagas comunes como pulgones, trips, mosca blanca y orugas. Además, su bajo impacto ambiental y su seguridad para los seres humanos y animales lo convierten en una opción popular en cultivos destinados a productos de consumo directo.",
+    "imagen": "/server/IMAGENES/ecogrow.webp"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 9,
+    "nombre": "Green Plus",
+    "precio": 17,
+    "descripcion": "Diseñado para controlar plagas en cultivos de manera eficiente.",
+    "descripcion1": "Green Plus es un insecticida ecológico de acción rápida, formulado con ingredientes naturales y biológicos para el control de diversas plagas en cultivos agrícolas. Su composición está basada en extractos vegetales y aceites esenciales que actúan eficazmente contra insectos como pulgones, moscas blancas, trips, orugas y otros insectos perjudiciales. Green Plus es especialmente adecuado para la agricultura orgánica, ya que no presenta residuos tóxicos, lo que garantiza la seguridad de los cultivos y del medio ambiente. Además, su uso contribuye a mantener el equilibrio ecológico, respetando a los insectos benéficos y favoreciendo una producción agrícola más sostenible.",
+    "imagen": "/server/IMAGENES/greenplus.webp"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 10,
+    "nombre": "Sanador",
+    "precio": 17,
+    "descripcion1": "Sanador es un fungicida de amplio espectro utilizado para el control de diversas enfermedades fúngicas en cultivos agrícolas. Su fórmula está diseñada para combatir hongos causantes de enfermedades comunes como el mildiu, la roya, el oídio y la mancha foliar, entre otros. Sanador actúa tanto de manera preventiva como curativa, protegiendo las plantas de infecciones fúngicas y mejorando su salud general. Es especialmente efectivo en cultivos como hortalizas, frutas y viñedos. Su acción rápida y duradera ayuda a prevenir la propagación de hongos, asegurando un rendimiento óptimo de los cultivos y una cosecha libre de enfermedades.",
+    "descripcion": "Eficaz en el control de diversas enfermedades fúngicas en cultivos.",
+    "imagen": "/server/IMAGENES/sanador.jpg"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 11,
+    "nombre": "Fitoklin",
+    "precio": 17,
+    "descripcion1": "Fitoklin es un fungicida de contacto y acción preventiva, formulado para el control de diversas enfermedades fúngicas en cultivos agrícolas. Está diseñado para combatir hongos como el oídio, mildiu, roya, y otras enfermedades causadas por hongos en plantas hortícolas, frutales y ornamentales. Fitoklin actúa formando una barrera protectora sobre las hojas y otras partes de la planta, evitando que los hongos penetren y se desarrollen. Su formulación es efectiva tanto en condiciones de alta humedad como en suelos con predisposición a enfermedades fúngicas, ofreciendo una protección duradera y ayudando a mantener la salud de los cultivos.",
+    "descripcion": "De acción sistémica utilizado para controlar enfermedades fúngicas en cultivos.",
+    "imagen": "/server/IMAGENES/fitoklin.webp"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 12,
+    "nombre": "Epico",
+    "precio": 17,
+    "descripcion": "Diseñado para el control de diversas enfermedades fúngicas en cultivos.",
+    "descripcion1": "Epico es un fungicida sistémico de amplio espectro, formulado para el control de diversas enfermedades fúngicas en cultivos agrícolas. Su acción se basa en ingredientes activos que son absorbidos por las plantas, lo que permite que el producto proteja tanto las partes externas como las internas de las plantas afectadas por hongos. Epico es eficaz contra enfermedades como el oídio, mildiu, roya y manchas foliares, y se utiliza en cultivos como hortalizas, frutas y viñedos. Además, su acción preventiva y curativa asegura un control efectivo a largo plazo, ayudando a mantener la salud de los cultivos y a maximizar su rendimiento.",
+    "imagen": "/server/IMAGENES/epico.png"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 13,
+    "nombre": "Segurite",
+    "precio": 17,
+    "descripcion": "Controla diversas enfermedades fúngicas en cultivos de manera preventiva.",
+    "descripcion1": "Segurite es un fungicida de amplio espectro, formulado para proteger los cultivos agrícolas de diversas enfermedades causadas por hongos. Su acción preventiva y curativa lo hace ideal para combatir hongos como el mildiu, oídio, roya y manchas foliares. Segurite actúa formando una barrera protectora en las plantas, evitando la penetración de los patógenos y controlando el desarrollo de las infecciones fúngicas. Es adecuado para una amplia variedad de cultivos, incluyendo hortalizas, frutas y plantas ornamentales. Además, su formulación es efectiva en condiciones de alta humedad y asegura una protección duradera para los cultivos, ayudando a mejorar su salud y rendimiento.",
+    "imagen": "/server/IMAGENES/Segurite.jpg"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 14,
+    "nombre": "Avalanch",
+    "precio": 17,
+    "descripcion": "Utilizado para el control de enfermedades fúngicas en una variedad de cultivos.",
+    "descripcion1": "Avalanch es un fungicida sistémico de alto rendimiento, diseñado para el control de diversas enfermedades fúngicas en cultivos agrícolas. Su acción penetrante permite que el producto sea absorbido por las plantas, proporcionando protección tanto en las partes externas como internas contra hongos patógenos. Avalanch es eficaz en el control de enfermedades como el oídio, mildiu, roya y otras infecciones fúngicas que afectan a cultivos de hortalizas, frutales y viñedos. Además de su acción curativa, tiene una excelente capacidad preventiva, lo que lo convierte en una opción confiable para mantener los cultivos saludables y maximizar su productividad.",
+    "imagen": "/server/IMAGENES/Avalanch.png"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 15,
+    "nombre": "Royalty",
+    "precio": 17,
+    "descripcion": "Utilizado para controlar enfermedades fúngicas en cultivos causados por hongos.",
+    "descripcion1": "Royalty es un fungicida de acción sistémica y de amplio espectro, formulado para el control eficaz de diversas enfermedades fúngicas en cultivos agrícolas. Su principal beneficio es su capacidad para ser absorbido por las plantas, ofreciendo protección interna y externa contra hongos patógenos como el oídio, mildiu, roya y otras infecciones comunes. Royalty es ideal para su uso en cultivos de hortalizas, frutas y viñedos, proporcionando un control preventivo y curativo de las enfermedades. Su formulación avanzada asegura una protección duradera, ayudando a mejorar la salud de las plantas y optimizando los rendimientos de los cultivos.",
+    "imagen": "/server/IMAGENES/Royalty.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 16,
+    "nombre": "Lannacrop",
+    "precio": 13,
+    "descripcion": "Control eficaz de diversas plagas en cultivos, como pulgones, ácaros y gusanos.",
+    "descripcion1": "Lannacrop es un insecticida de amplio espectro, diseñado para el control de una amplia variedad de plagas en cultivos agrícolas. Su fórmula contiene ingredientes activos que actúan eficazmente contra insectos como pulgones, trips, mosca blanca, orugas y otros insectos que afectan a las plantas. Lannacrop funciona a través de contacto e ingestión, proporcionando un control rápido y duradero de las plagas. Es adecuado para una gran variedad de cultivos, incluidos hortalizas, frutales y plantas ornamentales. Además, se caracteriza por ser fácil de aplicar y por su bajo impacto ambiental, lo que lo convierte en una opción confiable para el control de plagas en la agricultura.",
+    "imagen": "/server/IMAGENES/Lannacrop.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 17,
+    "nombre": "Triunfo",
+    "precio": 13,
+    "descripcion": "Formulado para combatir eficazmente una variedad de plagas, pulgones y orugas.",
+    "descripcion1": "Triunfo es un insecticida eficaz y de amplio espectro, formulado para controlar diversas plagas que afectan a cultivos agrícolas. Su acción es rápida y potente contra insectos como pulgones, moscas blancas, trips, orugas y otros insectos dañinos. Triunfo actúa tanto por contacto como por ingestión, brindando un control efectivo y duradero de las plagas. Es especialmente útil en cultivos de hortalizas, frutas y plantas ornamentales, donde protege la salud de las plantas sin dañar el medio ambiente. Su formulación está diseñada para ser segura y eficiente, ayudando a los agricultores a mantener sus cultivos productivos y libres de plagas.",
+    "imagen": "/server/IMAGENES/triunfador.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 18,
+    "nombre": "Fenucrop",
+    "precio": 13,
+    "descripcion": "Control eficiente de plagas persistentes en cultivos, pulgones, ácaros y larvas.",
+    "descripcion1": "Fenucrop es un insecticida de amplio espectro, formulado para el control de diversas plagas en cultivos agrícolas. Contiene ingredientes activos que actúan eficazmente contra insectos como pulgones, moscas blancas, trips, orugas y otros insectos que pueden afectar la salud de las plantas. Fenucrop ofrece protección a través de su acción de contacto e ingestión, proporcionando un control rápido y duradero. Es ideal para su uso en una variedad de cultivos, incluidos hortalizas, frutales y plantas ornamentales. Su formulación es segura para el medio ambiente y eficaz para mantener los cultivos libres de plagas, mejorando su salud y rendimiento.",
+    "imagen": "/server/IMAGENES/Fenucrop.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 19,
+    "nombre": "Proaxis 60cs",
+    "precio": 13,
+    "descripcion": "Formulación de suspensión concentrada, eficaz contra diversas plagas.",
+    "descripcion1": "Proaxis 60CS es un insecticida de amplio espectro, formulado con una tecnología de suspensión concentrada (CS), lo que le permite ofrecer una acción rápida y duradera contra una variedad de plagas agrícolas. Su principal ingrediente activo actúa eficazmente contra insectos como pulgones, mosca blanca, trips, orugas y otros insectos que afectan los cultivos. Proaxis 60CS se absorbe rápidamente por las plantas, proporcionando una protección tanto en su superficie como en su interior. Es ideal para su uso en cultivos como hortalizas, frutales y ornamentales, y se destaca por su bajo impacto ambiental y su efectividad a largo plazo, ayudando a mantener los cultivos saludables y productivos.",
+    "imagen": "/server/IMAGENES/Proaxis60.jpg"
+  },
+  {
+    "categoria": "Fertilizantes",
+    "Id": 20,
+    "nombre": "Sulfato potasio",
+    "precio": 15,
+    "descripcion": "Aporta potasio y azufre, esenciales para el desarrollo de las plantas.",
+    "descripcion1": "El Sulfato de Potasio Granulado es un fertilizante rico en potasio, con una concentración de alrededor del 50% de óxido de potasio (K2O) y un 18% de azufre. Es utilizado para mejorar la calidad de los cultivos al promover el desarrollo de frutos, flores y raíces, y aumentar la resistencia de las plantas a enfermedades, sequías y heladas. Este fertilizante es especialmente beneficioso para cultivos como frutas, vegetales, viñedos y pastos. La forma granulada del sulfato de potasio facilita su aplicación uniforme y permite una liberación controlada del potasio, asegurando una absorción más eficiente por parte de las plantas. Además, su bajo contenido de cloro lo hace adecuado para su uso en suelos sensibles al exceso de este mineral.",
+    "imagen": "/server/IMAGENES/Sulfato.png"
+  },
+  {
+    "categoria": "Fertilizantes",
+    "Id": 21,
+    "nombre": "Compuesto 20-20-20",
+    "precio": 15,
+    "descripcion": "Contiene 20% de nitrógeno, 20% de fósforo y 20% de potasio.",
+    "descripcion1": "El Compuesto 20-20-20 es un fertilizante balanceado de acción rápida, que contiene una mezcla equitativa de nitrógeno (N), fósforo (P) y potasio (K), con una proporción de 20% de cada uno. Este fertilizante es ideal para una variedad de cultivos, ya que proporciona un suministro completo de los nutrientes esenciales para el crecimiento y desarrollo de las plantas. El nitrógeno promueve el crecimiento vegetativo, el fósforo favorece el desarrollo de raíces y flores, y el potasio ayuda en la formación de frutos y mejora la resistencia de las plantas frente a enfermedades y estrés. El Compuesto 20-20-20 es adecuado para suelos con deficiencias de estos tres nutrientes, y su aplicación es beneficiosa tanto para cultivos agrícolas como ornamentales, asegurando un desarrollo equilibrado y saludable.",
+    "imagen": "/server/IMAGENES/Compuesto20.jpg"
+  },
+  {
+    "categoria": "Fertilizantes",
+    "Id": 22,
+    "nombre": "Molimax 20-20-20",
+    "precio": 15,
+    "descripcion": "Está diseñado para estimular un crecimiento, favorecer la floración y mejorar producción.",
+    "descripcion1": "Molimax 20-20-20 es un fertilizante complejo de fórmula equilibrada, que contiene un 20% de nitrógeno (N), fósforo (P) y potasio (K), lo que lo convierte en una opción ideal para promover un crecimiento uniforme y saludable en una amplia variedad de cultivos. Este fertilizante está diseñado para proporcionar los tres nutrientes esenciales de manera equitativa, favoreciendo tanto el desarrollo vegetativo como la formación de raíces, flores y frutos. Molimax 20-20-20 es especialmente útil en cultivos agrícolas, ornamentales y de jardinería, ayudando a maximizar el rendimiento de los cultivos y mejorar su resistencia a enfermedades. Su fácil aplicación y rápida absorción hacen que sea una opción eficiente para obtener resultados de alta calidad en los cultivos.",
+    "imagen": "/server/IMAGENES/Molimax20.png"
+  },
+  {
+    "categoria": "Fertilizantes",
+    "Id": 23,
+    "nombre": "Nitrato de potasio",
+    "precio": 15,
+    "descripcion": "Aporta potasio y nitrógeno en forma altamente absorbible. Es ideal para cultivos de alto rendimiento y se disuelve.",
+    "descripcion1": "El Nitrato de Potasio Soluble es un fertilizante de alta solubilidad que proporciona dos nutrientes esenciales para el crecimiento de las plantas: nitrógeno (N) y potasio (K). Este fertilizante es especialmente útil para cultivos que requieren un suministro constante de estos nutrientes, como frutas, hortalizas, flores y plantas ornamentales. El nitrógeno favorece el crecimiento vegetativo, mientras que el potasio ayuda en la formación de frutos, la mejora de la resistencia a enfermedades y el aumento de la calidad del cultivo. La alta solubilidad del nitrato de potasio permite una rápida absorción por las raíces, lo que asegura una respuesta rápida de las plantas. Es ideal para sistemas de riego por goteo y fertirrigación, ya que se disuelve fácilmente en agua, facilitando su aplicación directa en el sistema de riego.",
+    "imagen": "/server/IMAGENES/Nitrato.webp"
+  },
+  {
+    "categoria": "Fertilizantes",
+    "Id": 24,
+    "nombre": "Nitrato de calcio",
+    "precio": 15,
+    "descripcion": "Aporta calcio y nitrógeno, esenciales para fortalecer las paredes celulares de las plantas.",
+    "descripcion1": "El Nitrato de Calcio es un fertilizante altamente soluble que proporciona dos nutrientes esenciales para las plantas: nitrógeno (N) y calcio (Ca). El nitrógeno favorece el crecimiento vegetativo y la producción de hojas, mientras que el calcio es fundamental para la fortaleza de las paredes celulares, el desarrollo de raíces saludables y la mejora de la resistencia de las plantas a enfermedades. Este fertilizante es especialmente útil en cultivos sensibles a la deficiencia de calcio, como frutas (tomates, pepinos, pimientos) y hortalizas. Además, el Nitrato de Calcio ayuda a prevenir problemas como la podredumbre apical en tomates y pimientos. Es ideal para su aplicación mediante riego por goteo o fertirrigación debido a su alta solubilidad en agua.",
+    "imagen": "/server/IMAGENES/NitratoCalcio.png"
+  },
+  {
+    "categoria": "Fertilizantes",
+    "Id": 25,
+    "nombre": "Azufre pantera",
+    "precio": 15,
+    "descripcion": "Proporciona azufre, un nutriente esencial para el crecimiento de las plantas y la formación de proteínas.",
+    "descripcion1": "El Azufre Pantera es un fertilizante y corrector de suelos que proporciona azufre de alta calidad, un nutriente esencial para las plantas. El azufre es fundamental en la síntesis de proteínas, enzimas y vitaminas, y también ayuda en la mejora de la estructura del suelo, promoviendo una mayor disponibilidad de nutrientes. Este fertilizante es particularmente útil para cultivos que requieren un aporte adicional de azufre, como leguminosas, hortalizas y frutas. Además, el Azufre Pantera es eficaz en la prevención y tratamiento de deficiencias de azufre, favoreciendo un crecimiento óptimo y una mejor producción. Su aplicación también contribuye a la reducción de la alcalinidad en suelos, mejorando las condiciones para el crecimiento de las plantas.",
+    "imagen": "/server/IMAGENES/NitratoCalcio.png"
+  },
+  {
+    "categoria": "Fertilizantes",
+    "Id": 26,
+    "nombre": "Sulfato De Amonio",
+    "precio": 15,
+    "descripcion": "Es ideal para promover el crecimiento de las plantas, su aplicación ayuda a mejorar la salud de las plantas.",
+    "descripcion1": "El Sulfato de Amonio es un fertilizante nitrogenado que contiene un 21% de nitrógeno (N) y un 24% de azufre (S). Es ideal para suelos con deficiencia de nitrógeno y azufre, proporcionando estos dos nutrientes esenciales de forma equilibrada. El nitrógeno promueve el crecimiento vegetativo, el desarrollo de hojas y tallos, mientras que el azufre favorece la formación de proteínas y mejora la absorción de otros nutrientes. Este fertilizante es particularmente útil en cultivos como cereales, hortalizas y pastos. Además, el Sulfato de Amonio es adecuado para suelos alcalinos, ya que ayuda a reducir el pH del suelo, creando un ambiente más favorable para el crecimiento de las plantas.",
+    "imagen": "/server/IMAGENES/SulfatoAmonio.png"
+  },
+  {
+    "categoria": "Fertilizantes",
+    "Id": 27,
+    "nombre": "Nitrato De Amonio",
+    "precio": 15,
+    "descripcion": "Se utiliza en una variedad de cultivos, especialmente en suelos con deficiencia de nitrógeno.",
+    "descripcion1": "El Nitrato de Amonio es un fertilizante nitrogenado altamente eficiente que contiene un 34% de nitrógeno (N) en forma de amoníaco y nitrato. Este fertilizante es muy utilizado en la agricultura para promover el crecimiento rápido y vigoroso de las plantas, especialmente en cultivos como cereales, hortalizas y pastos. El nitrógeno presente en el Nitrato de Amonio es de rápida disponibilidad para las plantas, lo que asegura una respuesta rápida y eficaz. Además, es ideal para su aplicación en suelos deficientes en nitrógeno, mejorando la producción de hojas y tallos. También se usa en sistemas de riego por fertirrigación debido a su alta solubilidad en agua.",
+    "imagen": "/server/IMAGENES/NitratoAmonio.png"
+  },
+  {
+    "categoria": "Herbicidas",
+    "Id": 28,
+    "nombre": "Basagran® 600",
+    "precio": 15,
+    "descripcion": "Es eficaz en el control de malezas resistentes y se caracteriza por su acción rápida y específica.",
+    "descripcion1": "Basagran® 600 es un herbicida de contacto y acción postemergente, formulado para el control de malezas de hojas anchas en cultivos agrícolas. Su ingrediente activo, el bentazón, actúa inhibiendo la fotosíntesis en las plantas objetivo, lo que provoca su muerte. Basagran® 600 es eficaz contra una amplia gama de malezas en cultivos como soja, frijoles, maíz y arroz, sin afectar significativamente a los cultivos establecidos cuando se aplica correctamente. Este herbicida es especialmente útil para el manejo de malezas resistentes y puede ser utilizado en combinación con otros productos para mejorar su eficacia. Su acción rápida lo convierte en una excelente opción para mantener los cultivos libres de competidores indeseados.",
+    "imagen": "/server/IMAGENES/Basagran600.jpeg"
+  },
+  {
+    "categoria": "Herbicidas",
+    "Id": 29,
+    "nombre": "Basta®",
+    "precio": 15,
+    "descripcion": "Es eficaz tanto en aplicaciones preemergentes como postemergentes, se destaca por su acción rápida y amplio.",
+    "descripcion1": "Basta® es un herbicida no selectivo de acción sistémica, cuyo ingrediente activo, el glufosinato de amonio, actúa inhibiendo la síntesis de aminoácidos esenciales en las plantas, lo que lleva a su muerte. Este herbicida es eficaz en el control de una amplia gama de malezas, tanto de hojas anchas como de hojas estrechas, y es utilizado principalmente en cultivos como soja, maíz, arroz, hortalizas y en áreas no cultivadas. Basta® es especialmente útil para la eliminación de malezas antes de la siembra o en el manejo de vegetación no deseada en cultivos ya establecidos. Su acción rápida y la capacidad de translocarse a través de la planta lo hacen ideal para un control efectivo y duradero de malezas.",
+    "imagen": "/server/IMAGENES/Basta.jpg"
+  },
+  {
+    "categoria": "Herbicidas",
+    "Id": 30,
+    "nombre": "Laudis®",
+    "precio": 15,
+    "descripcion": "Es conocido por su alta eficacia y seguridad para los cultivos de maíz cuando se aplica las recomendaciones.",
+    "descripcion1": "Laudis® es un herbicida selectivo de acción sistémica que contiene el ingrediente activo tembotriona, utilizado principalmente para el control de malezas en cultivos de maíz. Este herbicida actúa inhibiendo la fotosíntesis en las plantas objetivo, lo que lleva a su destrucción. Laudis® es eficaz contra una amplia gama de malezas de hojas anchas y algunas gramíneas, y su aplicación en cultivos de maíz permite un control eficaz sin dañar la cosecha. Es especialmente útil para el manejo de malezas resistentes y se caracteriza por su rápida absorción y translocación dentro de la planta. Además, ofrece un control prolongado, reduciendo la necesidad de aplicaciones frecuentes y ayudando a mantener los cultivos libres de competencia.",
+    "imagen": "/server/IMAGENES/Laudis.jpg"
+  },
+  {
+    "categoria": "Herbicidas",
+    "Id": 31,
+    "nombre": "Roundup®",
+    "precio": 15,
+    "descripcion": "Es eficaz tanto en aplicaciones preemergentes como postemergentes y se usa comúnmente en cultivos.",
+    "descripcion1": "Roundup® es un herbicida de acción sistémica no selectivo, cuyo ingrediente activo principal es el glifosato. Este herbicida actúa de manera eficaz al ser absorbido por las hojas y trasladado a través de toda la planta, incluyendo sus raíces, lo que provoca la muerte de la planta al inhibir una enzima esencial para su crecimiento. Roundup® es muy efectivo en el control de una amplia variedad de malezas, incluyendo tanto hojas anchas como gramíneas, y se utiliza en una variedad de aplicaciones, como en terrenos agrícolas, no agrícolas, áreas de preparación de suelos y cultivos como soja, maíz y algodón, entre otros. Su acción rápida y la capacidad de eliminar malezas de forma integral lo hacen uno de los herbicidas más populares y utilizados a nivel mundial. Sin embargo, debe ser utilizado con precaución para evitar efectos en plantas no objetivo.",
+    "imagen": "/server/IMAGENES/Roundup.jpg"
+  },
+  {
+    "categoria": "Herbicidas",
+    "Id": 32,
+    "nombre": "Atranex 50 SC",
+    "precio": 15,
+    "descripcion": "Es útil para mantener el arroz libre de competidores, sin dañar el cultivo cuando se aplica las recomendaciones.",
+    "descripcion1": "Atranex 50 SC es un herbicida selectivo de acción sistémica, cuyo ingrediente activo es el terbutilazina. Se utiliza principalmente en cultivos de maíz para el control de malezas de hojas anchas y algunas gramíneas. Atranex 50 SC actúa inhibiendo la fotosíntesis de las plantas afectadas, lo que provoca su muerte. Este herbicida se aplica de forma preemergente o postemergente temprano, dependiendo de la etapa de crecimiento del cultivo y las malezas. Es especialmente eficaz en suelos con alta carga de malezas, ayudando a mantener los cultivos libres de competencia. Su uso adecuado contribuye a un control prolongado de malezas, mejorando la productividad y el rendimiento de los cultivos tratados.",
+    "imagen": "/server/IMAGENES/Atranex50.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 33,
+    "nombre": "DK-TINA",
+    "precio": 13,
+    "descripcion": "Su fórmula es ideal para su uso en la agricultura, protegiendo los cultivos y asegurando su crecimiento.",
+    "descripcion1": "DK-Tina es un insecticida de amplio espectro utilizado para el control de plagas en cultivos agrícolas. Su fórmula contiene imiprotrina, un ingrediente activo que actúa como un neurotóxico para diversas especies de insectos, afectando su sistema nervioso y causando su muerte. Este insecticida es eficaz contra una variedad de plagas comunes, como pulgones, moscas blancas, trips, y otros insectos chupadores y masticadores en cultivos de frutas, hortalizas y ornamentales. DK-Tina es ideal para su uso preventivo y curativo, proporcionando un control efectivo y rápido de las plagas. Su aplicación adecuada mejora la salud de las plantas, optimizando los rendimientos y la calidad de los cultivos.",
+    "imagen": "/server/IMAGENES/DK-TINA.png"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 34,
+    "nombre": "JAKE",
+    "precio": 13,
+    "descripcion": "Diseñado para el control de plagas como pulgones, mosca blanca, trips y ácaros en una variedad de cultivos.",
+    "descripcion1": "JAKE es un insecticida de amplio espectro, formulado para el control de diversas plagas en cultivos agrícolas. Su ingrediente activo actúa sobre el sistema nervioso de los insectos, interfiriendo con su capacidad para moverse y alimentarse, lo que lleva a su muerte. Este insecticida es eficaz contra plagas como pulgones, moscas blancas, trips, orugas y otros insectos chupadores y masticadores que afectan a cultivos de frutas, hortalizas y plantas ornamentales. JAKE ofrece una acción rápida y duradera, protegiendo los cultivos de daños causados por las plagas y ayudando a mantener la salud general de las plantas. Además, es especialmente útil en el manejo integrado de plagas (MIP), debido a su eficacia y seguridad en aplicaciones adecuadas.",
+    "imagen": "/server/IMAGENES/Jake.webp"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 35,
+    "nombre": "VERTIMEC",
+    "precio": 13,
+    "descripcion": "Su principio activo, abamectina, actúa interfiriendo con el sistema nervioso de las plagas.",
+    "descripcion1": "VERTIMEC es un insecticida y acaricida de amplio espectro utilizado para el control de diversas plagas en cultivos agrícolas. Su ingrediente activo, abamectina, actúa sobre el sistema nervioso de los insectos y ácaros, interfiriendo en su capacidad para transmitir impulsos nerviosos, lo que provoca su parálisis y muerte. VERTIMEC es altamente eficaz contra plagas como ácaros, trips, moscas blancas, minadores de hojas y orugas, entre otros. Se utiliza en cultivos de frutas, hortalizas, y plantas ornamentales. Este insecticida tiene una acción rápida y residual, y es particularmente útil en el control de plagas que han desarrollado resistencia a otros productos. VERTIMEC también es seguro para insectos benéficos cuando se utiliza según las recomendaciones, lo que lo hace adecuado para sistemas de manejo integrado de plagas (MIP).",
+    "imagen": "/server/IMAGENES/VERTIMEC.webp"
+  },
+  {
+    "categoria": "Fertilizantes",
+    "Id": 36,
+    "nombre": "SuperFosfato Triple",
+    "precio": 15,
+    "descripcion": "Es ideal para su uso en cultivos agrícolas que requieren un aporte significativo de fósforo.",
+    "descripcion1": "El Superfosfato Triple es un fertilizante fosfatado de alta concentración, que contiene alrededor del 46% de fósforo (P2O5), lo que lo convierte en una fuente rica en este nutriente esencial para las plantas. Se produce a partir de la reacción entre roca fosfórica y ácido sulfúrico, lo que da como resultado un fertilizante de rápida disponibilidad para las plantas. El fósforo es crucial para el desarrollo de las raíces, la floración y la fructificación, así como para mejorar la resistencia de las plantas a enfermedades. Este fertilizante es especialmente útil en suelos con deficiencia de fósforo, mejorando la eficiencia en el crecimiento de cultivos como maíz, soja, hortalizas y frutales. Su alta solubilidad lo hace ideal para aplicaciones en cultivos que requieren un rápido aporte de fósforo.",
+    "imagen": "/server/IMAGENES/Triple superfosfato.png"
+  },
+  {
+    "categoria": "Acaricidas",
+    "Id": 37,
+    "nombre": "Spirocrop duo 375 SC",
+    "precio": 15,
+    "descripcion": "Acaricida sistémico y de contacto con acción prolongada para el control de ácaros.",
+    "descripcion1": "Spirocrop Duo 375 SC es un acaricida especializado de amplio espectro, diseñado para el control eficaz de ácaros en diversos cultivos agrícolas. Este producto combina dos ingredientes activos, spiromesifen y abamectina, que actúan sobre diferentes fases del ciclo de vida de los ácaros, incluyendo huevos, larvas y adultos. Spirocrop Duo 375 SC interfiere en los procesos de desarrollo y respiración de los ácaros, provocando su eliminación rápida y duradera. Es particularmente efectivo en el manejo de ácaros resistentes en cultivos como hortalizas, frutales y ornamentales. Este acaricida es además compatible con programas de manejo integrado de plagas (MIP) debido a su seguridad para los insectos benéficos, siempre que se aplique siguiendo las recomendaciones.",
+    "imagen": "/server/IMAGENES/Spirocrop.jpg"
+  },
+  {
+    "categoria": "Acaricidas",
+    "Id": 38,
+    "nombre": "Spiromate 240 CS",
+    "precio": 15,
+    "descripcion": "Formulación encapsulada de acaricida que ofrece control efectivo y duradero de ácaros.",
+    "descripcion1": "Spiromate 240 CS es un acaricida de última generación, especialmente formulado para el control de ácaros en diferentes cultivos agrícolas. Su ingrediente activo, spiromesifen, actúa inhibiendo la síntesis de lípidos en los ácaros, lo que impide su desarrollo y reproducción. Este acaricida es eficaz contra diversas etapas de vida de los ácaros, incluyendo huevos, ninfas y adultos, proporcionando un control duradero. Spiromate 240 CS es ampliamente utilizado en cultivos de frutas, hortalizas y ornamentales, donde protege a las plantas de los daños causados por ácaros como el ácaro rojo y el ácaro araña. Es seguro para insectos benéficos cuando se aplica según las instrucciones, lo que lo convierte en una excelente opción para programas de manejo integrado de plagas (MIP).",
+    "imagen": "/server/IMAGENES/Spiromate.jpg"
+  },
+  {
+    "categoria": "Acaricidas",
+    "Id": 39,
+    "nombre": "Spinnedor",
+    "precio": 15,
+    "descripcion": "Acaricida de contacto con acción rápida y eficaz contra diferentes especies de ácaros.",
+    "descripcion1": "Spinnedor es un acaricida de amplio espectro formulado para el control eficaz de ácaros en una variedad de cultivos agrícolas. Su ingrediente activo, spinosad, es de origen natural y actúa sobre el sistema nervioso de los ácaros, provocando parálisis y muerte. Spinnedor es especialmente efectivo contra ácaros de diversas etapas de desarrollo, incluyendo ácaros araña y ácaros rojos, que suelen atacar hortalizas, frutales y plantas ornamentales. Además de su acción rápida, Spinnedor es compatible con programas de manejo integrado de plagas (MIP) debido a su bajo impacto en insectos benéficos y en el ambiente, siempre que se aplique de acuerdo con las recomendaciones de seguridad.",
+    "imagen": "/server/IMAGENES/Spinnedor.png"
+  },
+  {
+    "categoria": "Acaricidas",
+    "Id": 40,
+    "nombre": "Acarisil 110 SC",
+    "precio": 15,
+    "descripcion": "Acaricida de amplio espectro con acción residual para el control de ácaros en diversos cultivos.",
+    "descripcion1": "Acarisil es de acción específica, diseñado para el control eficaz de ácaros en cultivos agrícolas. Su formulación, basada en el ingrediente activo hexythiazox, actúa principalmente sobre los huevos y las etapas juveniles de los ácaros, interfiriendo en su desarrollo y evitando que lleguen a la fase adulta. Acarisil 110 SC es ideal para controlar ácaros araña y otras especies comunes en cultivos de frutas, hortalizas y ornamentales. Su acción residual proporciona un control prolongado, reduciendo la necesidad de aplicaciones frecuentes y ayudando a prevenir el desarrollo de resistencias. Además, al aplicarse de manera adecuada, es compatible con programas de manejo integrado de plagas (MIP) y seguro para insectos benéficos.",
+    "imagen": "/server/IMAGENES/Acarisil.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 41,
+    "nombre": "Lancer",
+    "precio": 13,
+    "descripcion": "Insecticida de amplio espectro utilizado para el control de diversas plagas en cultivos.",
+    "descripcion1": "Lancer es un insecticida de amplio espectro diseñado para el control eficaz de diversas plagas en cultivos agrícolas. Su ingrediente activo, lambda-cihalotrina, actúa como un potente neurotóxico que afecta el sistema nervioso de los insectos, causando parálisis y muerte. Lancer es eficaz contra plagas como pulgones, trips, orugas y escarabajos, entre otros insectos chupadores y masticadores. Se emplea en cultivos de frutas, hortalizas, cereales y ornamentales, proporcionando una acción rápida y prolongada que protege las plantas de daños significativos. Además, su formulación permite una buena adherencia a las superficies vegetales, asegurando su eficacia incluso en condiciones climáticas adversas.",
+    "imagen": "/server/IMAGENES/Lancer.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 42,
+    "nombre": "Alphamax",
+    "precio": 13,
+    "descripcion": "Insecticida de amplio espectro para el control de plagas.",
+    "descripcion1": "Alphamax es un insecticida formulado con alfametrina, un piretroide sintético que actúa sobre el sistema nervioso de los insectos. Este ingrediente activo altera el paso de los impulsos nerviosos en las plagas, lo que provoca parálisis y, finalmente, la muerte de los insectos. Alphamax es altamente eficaz contra una amplia variedad de insectos, incluyendo orugas, pulgones, trips, moscas blancas, chinches y otros insectos que afectan cultivos agrícolas como hortalizas, frutas y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/Alphamax.png"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 43,
+    "nombre": "Evade 20 SL",
+    "precio": 13,
+    "descripcion": "Insecticida sistémico de acción rápida y eficaz contra insectos chupadores y masticadores.",
+    "descripcion1": "Evade 20 SL es un insecticida sistémico y de contacto, formulado para el control efectivo de una variedad de plagas en cultivos agrícolas. Su ingrediente activo, imidacloprid, pertenece a la clase de los neonicotinoides y actúa sobre el sistema nervioso de los insectos, interfiriendo en la transmisión de impulsos nerviosos, lo que provoca la parálisis y muerte de las plagas. Evade 20 SL es eficaz contra insectos chupadores, como pulgones, moscas blancas y saltahojas, y es ampliamente utilizado en cultivos de frutas, hortalizas y cereales. Su acción sistémica permite que el producto sea absorbido por la planta y distribuido internamente, protegiéndola de plagas que se alimentan de sus tejidos y brindando un control prolongado con menos aplicaciones.",
+    "imagen": "/server/IMAGENES/Evade20.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 44,
+    "nombre": "DK-Prid",
+    "precio": 13,
+    "descripcion": "Insecticida de acción rápida para el control efectivo de plagas en diversos cultivos.",
+    "descripcion1": "DK-Prid es un insecticida de amplio espectro formulado para el control de diversas plagas que afectan cultivos agrícolas. Su ingrediente activo, deltametrina, es un piretroide sintético que actúa rápidamente sobre el sistema nervioso de los insectos, provocando parálisis y muerte. DK-Prid es eficaz contra plagas como orugas, pulgones, trips, moscas blancas, entre otras, en cultivos de frutas, hortalizas y plantas ornamentales. Su acción rápida y residual permite una protección prolongada contra las plagas, reduciendo la necesidad de aplicaciones frecuentes. Además, DK-Prid tiene una buena persistencia en las hojas, lo que asegura una protección continua y efectiva, siendo una opción ideal para el manejo de plagas en sistemas agrícolas intensivos.",
+    "imagen": "/server/IMAGENES/DKPrid.png"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 45,
+    "nombre": "Delta Plus",
+    "precio": 13,
+    "descripcion": "Insecticida basado en deltametrina, efectivo contra una amplia gama de insectos.",
+    "descripcion1": "Delta Plus es un insecticida de amplio espectro formulado con deltametrina, un piretroide sintético que actúa sobre el sistema nervioso de los insectos, bloqueando la transmisión de impulsos nerviosos y causando parálisis y muerte de las plagas. Es altamente eficaz contra una variedad de insectos como orugas, pulgones, trips, moscas blancas y otros insectos masticadores y chupadores que afectan cultivos de frutas, hortalizas y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/DeltaPlus.png"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 46,
+    "nombre": "Radical",
+    "precio": 13,
+    "descripcion": "Insecticida sistémico y de contacto para el control de plagas.",
+    "descripcion1": "Radical es un insecticida de amplio espectro formulado con bifenthrina, un piretroide sintético que actúa como neurotóxico sobre los insectos. Al interferir con la transmisión de impulsos nerviosos en el sistema nervioso de las plagas, causa parálisis y finalmente la muerte. Este insecticida es altamente eficaz contra una amplia gama de insectos, como orugas, pulgones, trips, moscas blancas, entre otros, que afectan cultivos de hortalizas, frutas, y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/Radical.webp"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 47,
+    "nombre": "Real",
+    "precio": 13,
+    "descripcion": "Insecticida de amplio espectro para el control de diversas plagas agrícolas.",
+    "descripcion1": "Real es un insecticida de amplio espectro formulado con cypermethrin, un piretroide sintético que actúa sobre el sistema nervioso de los insectos, interrumpiendo la transmisión de los impulsos nerviosos, lo que provoca parálisis y finalmente la muerte de las plagas. Este producto es altamente eficaz contra una variedad de insectos, incluidos pulgones, orugas, moscas blancas, trips, escarabajos, entre otros, que afectan cultivos de frutas, hortalizas y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/real.png"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 48,
+    "nombre": "Phasma",
+    "precio": 13,
+    "descripcion": "Insecticida de contacto rápido y efectivo contra una variedad de plagas.",
+    "descripcion1": "Phasma es un insecticida formulado con lambda-cihalotrina, un piretroide sintético que actúa sobre el sistema nervioso de los insectos. Este ingrediente activo altera la transmisión de los impulsos nerviosos, causando parálisis y eventual muerte de las plagas. Phasma es eficaz contra una amplia gama de insectos, como orugas, pulgones, trips, moscas blancas, entre otros, que afectan cultivos de frutas, hortalizas y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/Phasma.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 49,
+    "nombre": "Pirate",
+    "precio": 13,
+    "descripcion": "Insecticida utilizado para el control de insectos chupadores y masticadores.",
+    "descripcion1": "Pirate es un insecticida de amplio espectro formulado con esfenvalerato, un piretroide sintético que actúa sobre el sistema nervioso de los insectos. Al interferir con la transmisión de los impulsos nerviosos, causa parálisis y muerte de las plagas. Pirate es eficaz contra una amplia gama de insectos, como orugas, pulgones, trips, moscas blancas y escarabajos, entre otros insectos que afectan cultivos de hortalizas, frutas y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/Pirate.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 50,
+    "nombre": "Circus",
+    "precio": 13,
+    "descripcion": "Insecticida de contacto para el control de plagas en cultivos.",
+    "descripcion1": "Circus es un insecticida formulado con lamda-cihalotrina, un piretroide sintético altamente efectivo en el control de plagas en diversos cultivos agrícolas. Actúa bloqueando la transmisión de impulsos nerviosos en los insectos, lo que provoca parálisis y muerte. Este producto es eficaz contra una amplia variedad de insectos, como orugas, pulgones, trips, moscas blancas, y otros insectos chupadores y masticadores que afectan cultivos de frutas, hortalizas y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/Circus.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 51,
+    "nombre": "Fiprofos 570",
+    "precio": 13,
+    "descripcion": "Insecticida basado en fipronil, efectivo contra una amplia gama de insectos.",
+    "descripcion1": "Fiprofos 570 es un insecticida de amplio espectro formulado con fipronil, un ingrediente activo que pertenece a la clase de los fenilpirazoles. Este producto actúa como un neurotóxico para los insectos, inhibiendo el paso de los impulsos nerviosos y afectando su sistema nervioso central, lo que causa parálisis y muerte de las plagas. Fiprofos 570 es altamente eficaz contra una amplia gama de insectos, incluidos insectos chupadores y masticadores, como pulgones, moscas blancas, chinches, orugas y otras plagas comunes en cultivos de hortalizas, frutas y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/Fiprofos.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 52,
+    "nombre": "Ronin",
+    "precio": 13,
+    "descripcion": "Insecticida de amplio espectro para el control de diversas plagas.",
+    "descripcion1": "Ronin es un insecticida formulado con fenvalerato, un piretroide sintético que actúa de manera rápida y eficaz sobre el sistema nervioso de los insectos. Al interferir con la transmisión de los impulsos nerviosos, provoca parálisis y la posterior muerte de las plagas. Ronin es efectivo contra una amplia variedad de insectos que afectan cultivos agrícolas, tales como orugas, pulgones, trips, moscas blancas y chinches.",
+    "imagen": "/server/IMAGENES/Ronin.png"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 53,
+    "nombre": "K-ñon",
+    "precio": 13,
+    "descripcion": "Insecticida de contacto utilizado para el control de insectos en cultivos.",
+    "descripcion1": "K-ñon es un insecticida de amplio espectro formulado con chlorpyrifos, un organofosforado que actúa como un neurotóxico sobre los insectos. Este ingrediente activo inhibe la enzima colinesterasa, esencial para la transmisión de impulsos nerviosos en los insectos, lo que provoca su parálisis y eventual muerte. K-ñon es eficaz contra una gran variedad de plagas, como orugas, moscas blancas, pulgones, trips y otros insectos chupadores y masticadores que afectan cultivos agrícolas como hortalizas, frutas, y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/KNon.webp"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 54,
+    "nombre": "Fenkil 500 EC",
+    "precio": 13,
+    "descripcion": "Insecticida de emulsión concentrada para el control efectivo de insectos.",
+    "descripcion1": "Fenkil 500 EC es un insecticida formulado con fenitrothion, un organofosforado que actúa como neurotóxico sobre los insectos. Este ingrediente activo inhibe la actividad de la colinesterasa, una enzima clave en la transmisión de impulsos nerviosos, lo que causa parálisis y finalmente la muerte de las plagas. Fenkil 500 EC es eficaz contra una amplia gama de insectos, incluidos orugas, pulgones, trips, moscas blancas, chinches, y otras plagas comunes que afectan cultivos agrícolas como hortalizas, frutas, cereales y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/Fenkil500.png"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 55,
+    "nombre": "Regent SC",
+    "precio": 13,
+    "descripcion": "Insecticida sistémico para el control de plagas en cultivos.",
+    "descripcion1": "Regent SC es un insecticida sistémico formulado con fipronil, un compuesto activo de la clase de los fenilpirazoles. Este insecticida actúa sobre el sistema nervioso de los insectos, inhibiendo la transmisión de los impulsos nerviosos y provocando parálisis y muerte de las plagas. Regent SC es eficaz contra una amplia variedad de insectos, como orugas, pulgones, trips, moscas blancas, escarabajos y otras plagas que afectan cultivos agrícolas como hortalizas, frutas, y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/RegentSc.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 56,
+    "nombre": "Ciclón",
+    "precio": 13,
+    "descripcion": "Insecticida de acción rápida y eficaz contra diversas plagas.",
+    "descripcion1": "Ciclón es un insecticida de amplio espectro formulado con cypermethrin, un piretroide sintético que actúa sobre el sistema nervioso de los insectos. Este ingrediente activo interfiere en la transmisión de los impulsos nerviosos, causando parálisis y, finalmente, la muerte de las plagas. Ciclón es eficaz contra una variedad de insectos, incluyendo orugas, moscas blancas, pulgones, trips, chinches y otras plagas que afectan cultivos agrícolas como hortalizas, frutas y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/Ciclón.png"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 57,
+    "nombre": "Selecron 500 EC",
+    "precio": 13,
+    "descripcion": "Insecticida de contacto y sistémico para el control de insectos.",
+    "descripcion1": "Selecron 500 EC es un insecticida formulado con chlorpyrifos, un organofosforado que actúa inhibiendo la acción de la colinesterasa, una enzima crucial en la transmisión de impulsos nerviosos de los insectos. Este mecanismo provoca la parálisis y posterior muerte de las plagas. Selecron 500 EC es eficaz contra una amplia gama de insectos que afectan cultivos agrícolas, como orugas, pulgones, trips, moscas blancas, chinches y otros insectos chupadores y masticadores.",
+    "imagen": "/server/IMAGENES/Selecron.webp"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 58,
+    "nombre": "Rayosac Hortus",
+    "precio": 13,
+    "descripcion": "Insecticida de amplio espectro para el control de plagas.",
+    "descripcion1": "Rayosac Hortus es un insecticida diseñado para el control de plagas en cultivos agrícolas, formulado con lambda-cihalotrina, un piretroide sintético que actúa rápidamente sobre el sistema nervioso de los insectos. Este compuesto bloquea la transmisión de impulsos nerviosos, lo que lleva a la parálisis y muerte de las plagas. Rayosac Hortus es efectivo contra una amplia variedad de insectos, como orugas, pulgones, trips, moscas blancas, chinches, entre otros, que afectan cultivos de hortalizas, frutas y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/RayosacH.png"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 59,
+    "nombre": "Cautivo",
+    "precio": 13,
+    "descripcion": "Insecticida utilizado para el control de insectos en cultivos.",
+    "descripcion1": "Cautivo es un insecticida formulado con imidacloprid, un neonicotinoide que actúa sobre el sistema nervioso de los insectos al interferir con los receptores de acetilcolina, lo que bloquea la transmisión de impulsos nerviosos y provoca la parálisis y muerte de las plagas. Cautivo es eficaz contra una amplia gama de insectos chupadores y masticadores, incluyendo pulgones, trips, chinches, moscas blancas, orugas y otros insectos que afectan cultivos agrícolas como hortalizas, frutas y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/Cautivo.png"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 60,
+    "nombre": "Binomio",
+    "precio": 13,
+    "descripcion": "Fungicida utilizado en la agricultura para el control de enfermedades fúngicas.",
+    "descripcion1": "Binomio es un insecticida químico utilizado en la agricultura para el control de plagas que afectan diversos cultivos. Este insecticida está formulado con bifentrina, un piretroide sintético que actúa sobre el sistema nervioso de los insectos, inhibiendo la transmisión de impulsos nerviosos, lo que provoca parálisis y muerte de las plagas. Binomio es eficaz contra una amplia variedad de insectos, como orugas, pulgones, trips, moscas blancas, chinches y otros insectos que afectan cultivos agrícolas como hortalizas, frutas y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/Binomio.jpg"
+  },
+  {
+    "categoria": "Insecticidas",
+    "Id": 61,
+    "nombre": "Tracer 120 SC",
+    "precio": 13,
+    "descripcion": "Insecticida de suspensión concentrada para el control de plagas.",
+    "descripcion1": "Tracer 120 SC es un insecticida formulado con spinosad, un compuesto natural derivado de la fermentación bacteriana que actúa como un neurotóxico selectivo para los insectos. Este ingrediente activo afecta el sistema nervioso de las plagas, causando parálisis y muerte. Tracer 120 SC es altamente efectivo contra una amplia variedad de insectos plaga, incluyendo orugas, moscas blancas, trips, chinches, pulgones y otros insectos chupadores y masticadores que afectan cultivos de frutas, hortalizas, y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/Tracer.webp"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 62,
+    "nombre": "Cropnil 720 SC",
+    "precio": 17,
+    "descripcion": "Fungicida de amplio espectro para el control de enfermedades fúngicas en cultivos.",
+    "descripcion1": "Cropnil 720 SC es un fungicida sistémico utilizado en la agricultura para el control de enfermedades fúngicas en diversos cultivos. Formulado con propiconazol, un fungicida triazol que actúa inhibiendo la síntesis de ergosterol, un componente esencial de la membrana celular de los hongos, Cropnil 720 SC previene y combate eficazmente una amplia gama de enfermedades causadas por hongos patógenos. Cropnil 720 SC también tiene una acción residual prolongada, lo que ayuda a mantener la protección a lo largo de un periodo extenso. Gracias a su formulación en suspensión concentrada (SC), Cropnil 720 SC es fácil de aplicar y proporciona una distribución uniforme.",
+    "imagen": "/server/IMAGENES/Cropnil.jpg"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 63,
+    "nombre": "Megazol",
+    "precio": 17,
+    "descripcion": "Fungicida sistémico utilizado para el control de una variedad de enfermedades fúngicas.",
+    "descripcion1": "Megazol es un fungicida químico utilizado en la agricultura para el control de una amplia gama de enfermedades fúngicas que afectan diversos cultivos. Este producto está formulado con carbendazim, un fungicida sistémico de amplio espectro que actúa inhibiendo la formación de la pared celular de los hongos al interferir con la síntesis de microtúbulos durante la división celular de los patógenos. Esto detiene el crecimiento de los hongos y previene su propagación. Megazol es efectivo contra enfermedades como mildiu, roya, antracnosis, manchas foliares y otras infecciones fúngicas que afectan cultivos de hortalizas, frutas, flores y plantas ornamentales.",
+    "imagen": "/server/IMAGENES/Megazol.webp"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 64,
+    "nombre": "Bucaner",
+    "precio": 17,
+    "descripcion": "Fungicida de contacto y sistémico para el control de hongos en cultivos.",
+    "descripcion1": "Bucaner es un fungicida de amplio espectro utilizado en la agricultura para el control de diversas enfermedades fúngicas que afectan a los cultivos. Formulado con difenoconazol, un fungicida del grupo de los triazoles, Bucaner actúa inhibiendo la biosíntesis de ergosterol, un componente esencial de la membrana celular de los hongos, lo que interfiere con el crecimiento y la reproducción de los patógenos fúngicos.",
+    "imagen": "/server/IMAGENES/Bucaner.png"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 65,
+    "nombre": "Mortero",
+    "precio": 17,
+    "descripcion": "Fungicida de amplio espectro para el control de enfermedades fúngicas.",
+    "descripcion1": "Mortero es un fungicida de amplio espectro utilizado en la agricultura para el control de una variedad de enfermedades fúngicas que afectan cultivos de frutas, hortalizas y plantas ornamentales. Este producto está formulado con azoxistrobina, un fungicida de contacto y sistémico que actúa inhibiendo la respiración celular de los hongos, lo que impide su crecimiento y reproducción.",
+    "imagen": "/server/IMAGENES/Mortero.jpg"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 66,
+    "nombre": "Kasumin",
+    "precio": 17,
+    "descripcion": "Fungicida bactericida para el control de enfermedades bacterianas y fúngicas.",
+    "descripcion1": "Kasumin es un fungicida y bactericida utilizado en la agricultura para el control de enfermedades causadas por hongos y bacterias en una variedad de cultivos. Formulado con kasugamicina, un antibiótico que actúa de manera específica contra patógenos bacterianos y algunos hongos, Kasumin inhibe la síntesis de proteínas en las bacterias, lo que previene su crecimiento y propagación.",
+    "imagen": "/server/IMAGENES/Kasumin.png"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 67,
+    "nombre": "Penta Cobre",
+    "precio": 17,
+    "descripcion": "Fungicida a base de cobre para el control de enfermedades fúngicas y bacterianas.",
+    "descripcion1": "Penta Cobre es un fungicida a base de cobre utilizado en la agricultura para el control de diversas enfermedades fúngicas y bacterianas en cultivos de hortalizas, frutas, y plantas ornamentales. Este producto contiene hidróxido de cobre o oxicloruro de cobre, que actúa de manera preventiva mediante su acción de contacto, formando una barrera protectora en las superficies de las plantas para evitar que los patógenos se adhieran y proliferan.",
+    "imagen": "/server/IMAGENES/PentaCobre.jpg"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 68,
+    "nombre": "Endura",
+    "precio": 17,
+    "descripcion": "Fungicida sistémico para el control de enfermedades en cultivos.",
+    "descripcion1": "Endura es un fungicida de amplio espectro utilizado en la agricultura para el control de diversas enfermedades fúngicas en cultivos de hortalizas, frutas, y plantas ornamentales. Formulado con boscalid, un compuesto que pertenece a la clase de los carboxamidas, Endura actúa inhibiendo la respiración celular de los hongos patógenos, lo que interfiere en su crecimiento y reproducción.",
+    "imagen": "/server/IMAGENES/Endura.jpg"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 69,
+    "nombre": "Vydan 250 EC",
+    "precio": 17,
+    "descripcion": "Fungicida de emulsión concentrada para el control de hongos.",
+    "descripcion1": "Vydan 250 EC es un fungicida de acción sistémica utilizado en la protección de cultivos contra una variedad de enfermedades fúngicas. Su ingrediente activo, fluopyram, pertenece a la clase de las carboxamidas y actúa inhibiendo una enzima clave en el proceso de respiración de los hongos, lo que interrumpe su metabolismo y evita su crecimiento y propagación.",
+    "imagen": "/server/IMAGENES/Vydan.jpg"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 70,
+    "nombre": "Orchestra",
+    "precio": 17,
+    "descripcion": "Fungicida de amplio espectro utilizado en el control de enfermedades fúngicas.",
+    "descripcion1": "Orchestra es un fungicida de amplio espectro formulado con una combinación de azoxistrobina y difenoconazol, dos ingredientes activos que actúan de manera sinérgica para ofrecer un control efectivo contra diversas enfermedades fúngicas en cultivos agrícolas. Orchestra es eficaz contra una amplia gama de enfermedades como mildiu, roya, manchas foliares, antracnosis, y otras infecciones fúngicas que afectan a cultivos como tomate, pimiento, pepino, frutales y hortalizas en general.",
+    "imagen": "/server/IMAGENES/Orchestra.png"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 71,
+    "nombre": "Temera",
+    "precio": 17,
+    "descripcion": "Fungicida sistémico para el control de enfermedades en plantas.",
+    "descripcion1": "Temera es un fungicida de amplio espectro utilizado en la protección de cultivos contra diversas enfermedades fúngicas. Su ingrediente activo, tetraconazol, pertenece a la familia de los triazoles y actúa como un inhibidor de la síntesis de ergosterol, un componente esencial en la membrana celular de los hongos. Esto interrumpe el proceso de formación de la célula fúngica, impidiendo su crecimiento y reproducción.",
+    "imagen": "/server/IMAGENES/Temera.png"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 72,
+    "nombre": "Difenol",
+    "precio": 17,
+    "descripcion": "Fungicida de contacto y sistémico para el control de hongos.",
+    "descripcion1": "Difenol es un fungicida sistémico de amplio espectro diseñado para combatir diversas enfermedades fúngicas en cultivos agrícolas. Su ingrediente activo, difenoconazol, pertenece a la clase de los triazoles y actúa interfiriendo en la síntesis de ergosterol, un componente clave en la membrana celular de los hongos, lo que inhibe su desarrollo y propagación. Difenol es eficaz para el control de enfermedades como mildiu, roya, manchas foliares, antracnosis, y oídio, entre otras. Este fungicida se aplica principalmente en cultivos de cereales, hortalizas, frutas y vides, donde ofrece protección tanto en el follaje como en los frutos.",
+    "imagen": "/server/IMAGENES/Difenol.png"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 73,
+    "nombre": "Cofradía",
+    "precio": 17,
+    "descripcion": "Fungicida de amplio espectro para el control de enfermedades fúngicas.",
+    "descripcion1": "Cofradía es un fungicida de amplio espectro formulado para proteger cultivos contra una variedad de enfermedades fúngicas, especialmente en cultivos sensibles como hortalizas, frutales, vid y cereales. Su fórmula combina ingredientes activos de acción sistémica, lo que permite una distribución uniforme en toda la planta y ofrece una protección duradera. Este fungicida es eficaz contra patógenos que causan enfermedades como mildiu, roya, antracnosis, oídio y manchas foliares, inhibiendo su desarrollo en etapas tempranas.",
+    "imagen": "/server/IMAGENES/Cofradia.jpg"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 74,
+    "nombre": "Patrulla",
+    "precio": 17,
+    "descripcion": "Fungicida utilizado para el control de hongos en diversos cultivos.",
+    "descripcion1": "Patrulla es un fungicida de amplio espectro diseñado para combatir enfermedades fúngicas en diversos cultivos agrícolas, especialmente hortalizas, frutales y cereales. Su ingrediente activo proporciona una acción prolongada contra hongos como el mildiu, oídio, roya, antracnosis y manchas foliares, entre otros. Con efecto preventivo y curativo, Patrulla actúa interfiriendo en el crecimiento del hongo, interrumpiendo su ciclo de vida y evitando que se propague. Al ser sistémico, este fungicida se absorbe por las hojas y se distribuye por toda la planta, garantizando una protección homogénea y duradera.",
+    "imagen": "/server/IMAGENES/patrulla.png"
+  },
+  {
+    "categoria": "Fungicidas",
+    "Id": 75,
+    "nombre": "Tebufort 25 EW",
+    "precio": 17,
+    "descripcion": "Fungicida de emulsión acuosa para el control de enfermedades fúngicas.",
+    "descripcion1": "Tebufort 25 EW es un fungicida sistémico de amplio espectro, formulado principalmente para combatir enfermedades en cultivos de hortalizas, frutales, cereales y vides. Su ingrediente activo, tebuconazol, pertenece a la familia de los triazoles y actúa inhibiendo la síntesis de ergosterol, una sustancia esencial para la membrana celular de los hongos, lo que impide su desarrollo y propagación. Este fungicida es efectivo para el control de enfermedades como roya, oídio, mildiu y antracnosis, proporcionando una acción tanto preventiva como curativa.",
+    "imagen": "/server/IMAGENES/Tebufort.jpg"
+  },
+  {
+    "categoria": "Nutrientes",
+    "Id": 76,
+    "nombre": "Best Water",
+    "precio": 17,
+    "descripcion": "Producto regulador de pH diseñado para optimizar la calidad del agua de riego.",
+    "descripcion1": "Best Water Regulador de pH es una solución formulada para ajustar y optimizar el pH del agua utilizada en sistemas de riego y aplicaciones de fertilizantes en cultivos. Este producto es ideal para agricultores y productores que buscan mantener un pH balanceado en el agua, asegurando que los nutrientes se absorban de manera eficiente por las plantas, lo cual es fundamental para un crecimiento saludable y una producción óptima.",
+    "imagen": "/server/IMAGENES/BestWater.png"
+  },
+  {
+    "categoria": "Nutrientes",
+    "Id": 77,
+    "nombre": "PH Regulador Top",
+    "precio": 17,
+    "descripcion": "Regulador de pH del agua que ayuda a mantener el pH en el rango óptimo para las plantas.",
+    "descripcion1": "pH Regulador Top es un producto diseñado para ajustar y estabilizar el pH del agua de riego en diversas aplicaciones agrícolas, contribuyendo a la efectividad de los fertilizantes y productos fitosanitarios aplicados. Este regulador es ideal para optimizar el agua usada en cultivos de hortalizas, frutales, granos y flores, asegurando que los nutrientes se absorban eficientemente y promoviendo un desarrollo vegetal óptimo.",
+    "imagen": "/server/IMAGENES/ReguladorPH.png"
+  },
+  {
+    "categoria": "Nutrientes",
+    "Id": 78,
+    "nombre": "Aquarite",
+    "precio": 17,
+    "descripcion": "Regulador de pH del agua de riego para mejorar la absorción de nutrientes.",
+    "descripcion1": "pH Aquarite es un regulador de pH diseñado específicamente para ajustar y mantener el pH del agua de riego en niveles óptimos, promoviendo una absorción eficaz de nutrientes en una amplia variedad de cultivos, como hortalizas, frutales, granos y flores. Este producto permite a los agricultores corregir y estabilizar la acidez o alcalinidad del agua, adaptándose a las necesidades particulares de cada tipo de planta y suelo.",
+    "imagen": "/server/IMAGENES/Aquarite.png"
+  }
+]

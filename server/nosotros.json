@@ -1,0 +1,29 @@
+{
+    "sections": [
+        {
+            "title": "Quiénes Somos",
+            "description": "Agro Inversiones Fora es una empresa comprometida con el desarrollo del sector agrícola, ofreciendo soluciones innovadoras y productos de calidad como fertilizantes e insecticidas. Con más de 10 años de experiencia, ayudamos a agricultores a maximizar su producción y sostenibilidad.",
+            "imagen": "/static/IMAGENES/agriculture-2686628_1280.jpg"
+        },
+        {
+            "title": "Historia de la Empresa",
+            "description": "Agro Inversiones Fora nació en el año 2013 con el sueño de apoyar a los agricultores con productos confiables y efectivos. Desde entonces, hemos crecido para convertirnos en líderes en el sector, atendiendo a cientos de clientes en Perú y países vecinos.",
+            "imagen": "/static/IMAGENES/enca.png"
+        },
+        {
+            "title": "Equipo de Trabajo",
+            "description": "Nuestro equipo está compuesto por expertos en agricultura, comprometidos en ofrecer soluciones personalizadas a nuestros clientes. Desde agrónomos hasta asesores técnicos, trabajamos juntos para garantizar los mejores resultados.",
+            "imagen": "/static/IMAGENES/Recibidor.jpeg"
+        },
+        {
+            "title": "Frase Inspiradora",
+            "description": "Sembramos calidad, cosechamos confianza.",
+            "imagen": "/static/IMAGENES/ver.gif"
+        }
+    ],
+    "callToAction": {
+        "message": "¿Quieres saber más sobre cómo podemos ayudarte? Visita nuestras secciones de productos o contáctanos directamente.",
+        "linkText": "Contáctanos",
+        "linkUrl": "https://wa.me/51986008142?text=Hola,%20quiero%20contactarme%20con%20alguien%20AgroInversiones%20Fora"
+    }
+}

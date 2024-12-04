@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Inversiones Fora</title>
+    <link rel="stylesheet" href="/static/Css/com.css">
+    <link rel="icon" href="/static/IMAGENES/Screenshot_20240516_161854_Gallery-removebg-preview.png"
+        type="image/x-icon">
+    <link rel="shortcut icon" href="/static/IMAGENES/Screenshot_20240516_161854_Gallery-removebg-preview.png"
+        type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <!-- Primer Header -->
+    <header class="header-superior">
+        <div class="logo">
+            <a href="index.html">
+                <img class="marca-full" src="/static/IMAGENES/Screenshot_20240516_161854_Gallery-removebg-preview.png"
+                    alt="Logo de la Tienda">
+            </a>
+        </div>
+        <div class="iconos-redes">
+            <a href="#contactos" class="icono"><i class="bi bi-geo-alt-fill"></i></a>
+            <a href="https://wa.me/yourwhatsapp" class="icono"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.facebook.com" class="icono"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UCfFejvwM3gXuNqhPOPbICsw" class="icono"><i
+                    class="bi bi-youtube"></i></a>
+            <a href="+51 955 028 198" class="icono"><i class="bi bi-telephone-fill"></i></a>
+        </div>
+    </header>
+    <!-- Segundo Header -->
+    <header class="header-inferior">
+        <div class="menu-principal">
+            <div class="menu-button">&#9776;</div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="Popular.html">POPULAR</a>
+                    </li>
+                    <li>
+                        <a href="Productos.html">PRODUCTOS</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="Nosotros.html">NOSOTROS</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="buscador">
+                <input type="text" id="buscar-producto" placeholder="Nombre del producto" oninput="buscarProducto()">
+                <button onclick="buscarProducto()"><i class="bi bi-search"></i></button>
+            </div>
+            <div id="resultados-container" class="resultados-container"></div>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a la Tienda de AGRO INVERSIONES FORA</h1>
+            <p>Encuentra nuestros mejores PRODUCTOS</p>
+            <a href="Popular.html" class="btn">Ver Productos más Vendidos</a>
+        </div>
+    </section>
+    <main class="about-main">
+        <div class="about-company-info">
+            <!-- Título con efecto de "serpiente" en los colores -->
+            <h2 id="about-animated-title">Acerca de Nosotros</h2>
+            <p>Nuestra empresa fue fundada en el año 2002 con el objetivo de ofrecer soluciones innovadoras en el sector
+                agrícola.</p>
+            <p>Con un enfoque en la sostenibilidad y el desarrollo agrícola, hemos crecido para convertirnos en un
+                referente en el mercado, gracias a la confianza de nuestros clientes y la dedicación de nuestro equipo.
+            </p>
+        </div>
+        <!-- Carrusel de imágenes -->
+        <div class="about-carousel">
+            <div class="about-carousel-images">
+                <img src="/static/IMAGENES/20240611_104645.jpg" alt="Historia 1">
+                <img src="/static/IMAGENES/c11.jpg" alt="Historia 2">
+                <img src="/static/IMAGENES/c55.jpg" alt="Historia 3">
+                <img src="/static/IMAGENES/plant-5329645_1280.jpg" alt="Historia 4">
+                <img src="/static/IMAGENES/tractor-6544592_1280.jpg" alt="Historia 4">
+                <img src="/static/IMAGENES/c33.jpg" alt="Historia 4">
+                <img src="/static/IMAGENES/c33.jpg" alt="Historia 4">
+            </div>
+        </div>
+    </main>
+    <main class="carousel-container">
+        <h1>Conoce a Nuestro Equipo</h1>
+        <div class="carousel"></div>
+        <button class="carousel-control prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="carousel-control next" onclick="changeSlide(1)">&#10095;</button>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2>Agro Inversiones Fora</h2>
+            </div>
+            <div class="footer-description">
+                <p>"Somos Agro Inversiones Fora, una empresa líder en el suministro de fertilizantes e insecticidas de
+                    alta calidad para el sector agrícola. Nuestro compromiso es ofrecer productos innovadores y
+                    soluciones eficaces que impulsen el rendimiento y la salud de los cultivos, contribuyendo así al
+                    éxito y la rentabilidad de nuestros clientes en la industria agropecuaria."</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <div class="footer-map-ubi">
+                        <a href="#contactos" class="icono"><i
+                                class="bi bi-geo-alt-fill footer-icon"></i></a><span>Ubícanos</span>
+                        <p>Cal. Señor de Pachacamilla Nro. 105 Int. B A.V. Señor de los Milagros</p>
+                    </div>
+                    <div id="contactos" class="footer-map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d237.15917417367697!2d-70.26026378520052!3d-17.9998106561623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDU5JzU4LjgiUyA3MMKwMTUnMzYuOSJX!5e0!3m2!1ses!2spe!4v1731338790853!5m2!1ses!2spe"
+                            width="480" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Agro Inversiones Fora. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <a href="https://api.whatsapp.com/send?phone=51955028198&text=Queremos%20saber%20más...." target="_blank">
+        <i class="bi bi-whatsapp whatsapp-icon"></i> <!-- Ícono de WhatsApp -->
+    </a>
+    <a href="#" id="chatbot-icon">
+        <i class="fas fa-robot chatbot-icon"></i>
+    </a>
+    <div id="chatbot-window" style="display: none;">
+        <div class="chatbot-header">
+            <h3>Asistente Virtual</h3>
+            <button id="close-chatbot" class="close-btn">X</button>
+        </div>
+        <div class="chatbot-content">
+            <div id="chatbot-messages">
+            </div>
+            <div class="user-input">
+                <input type="text" id="user-input" placeholder="Escribe tu mensaje aquí...">
+                <button id="send-message">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/Nosotros.js"></script>
+    <script src="/static/js/chatbot.js"></script>
+    <script src="/static/js/info.js"></script>
+    <script src="/static/js/Productos.js"></script>
+</body>
+
+</html>

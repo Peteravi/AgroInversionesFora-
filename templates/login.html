@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AgroInversiones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/Css/login.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/Css/login.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+    <!-- Contenedor principal del login -->
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="card shadow-lg p-4" style="max-width: 400px; width: 100%;">
+            <div class="card-body">
+                <div class="text-center mb-4">
+                    <h2 class="card-title fw-bold">Iniciar Sesión</h2>
+                    <i class="bi bi-person-circle display-4 text-primary"></i>
+                </div>
+
+                <!-- Formulario de inicio de sesión -->
+                <form action="{{ url_for('login') }}" method="POST" id="loginForm">
+                    <!-- Campo de nombre de usuario -->
+                    <div class="mb-3">
+                        <label for="username" class="form-label fw-semibold">Nombre de usuario</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Usuario"
+                                required>
+                        </div>
+                    </div>
+
+                    <!-- Campo de contraseña -->
+                    <div class="mb-3">
+                        <label for="password" class="form-label fw-semibold">Contraseña</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="bi bi-lock-fill"></i></span>
+                            <input type="password" class="form-control" id="password" name="password"
+                                placeholder="Contraseña" required>
+                        </div>
+                    </div>
+
+                    <!-- Botón de inicio de sesión -->
+                    <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+                </form>
+
+                <!-- Enlace para abrir el modal de registro -->
+                <div class="mt-3 text-center">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#registerModal" class="text-decoration-none">
+                        ¿No tienes una cuenta? <span class="fw-bold">Regístrate aquí</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de registro -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Regístrate</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Formulario de registro dentro del modal -->
+                    <form action="{{ url_for('register') }}" method="POST" id="registerForm">
+                        <div class="mb-3">
+                            <label for="reg_username" class="form-label">Nombre de usuario</label>
+                            <input type="text" class="form-control" id="reg_username" name="username"
+                                placeholder="Usuario" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="reg_password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="reg_password" name="password"
+                                placeholder="Contraseña" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="reg_confirm_password" class="form-label">Confirmar contraseña</label>
+                            <input type="password" class="form-control" id="reg_confirm_password"
+                                name="confirm_password" placeholder="Confirmar contraseña" required>
+                        </div>
+
+                        <!-- Campo para seleccionar el rol -->
+                        <div class="mb-3">
+                            <label for="reg_role" class="form-label">Rol</label>
+                            <select class="form-select" id="reg_role" name="role" required>
+                                <option value="user">Usuario</option>
+                                <option value="admin">Administrador</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-success w-100">Registrarse</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vinculamos Bootstrap JS y dependencias -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // Limpiar los campos del formulario de registro al abrir el modal
+            const registerModal = document.getElementById('registerModal');
+            registerModal.addEventListener('show.bs.modal', function () {
+                const registerForm = document.getElementById('registerForm');
+                registerForm.reset(); // Limpiar los campos del formulario
+            });
+
+            // Función de validación del formulario de inicio de sesión
+            const form = document.querySelector('#loginForm');
+            form.addEventListener('submit', function (event) {
+                const username = document.querySelector('#username').value;
+                const password = document.querySelector('#password').value;
+
+                // Validar que los campos no estén vacíos
+                if (!username || !password) {
+                    event.preventDefault();
+                    showAlert('Por favor, ingrese tanto el nombre de usuario como la contraseña.', 'danger');
+                }
+            });
+
+            // Función para mostrar alertas personalizadas
+            function showAlert(message, type) {
+                const alertBox = document.createElement('div');
+                alertBox.classList.add('alert', `alert-${type}`, 'mt-3');
+                alertBox.innerHTML = `<strong>¡Error!</strong> ${message}`;
+
+                // Agregar la alerta al contenedor de la página
+                const cardBody = document.querySelector('.card-body');
+                cardBody.appendChild(alertBox);
+
+                // Desaparecer la alerta después de 3 segundos
+                setTimeout(function () {
+                    alertBox.remove();
+                }, 3000);
+            }
+        });
+    </script>
+</body>
+
+</html>

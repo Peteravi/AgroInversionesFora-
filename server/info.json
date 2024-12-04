@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Ing. agrónomo JUAN CARLOS FORA INCACUTIPA",
+        "role": "Ingeniero y Dueño",
+        "position": "Ingeniero Agrónomo y dueño de la empresa con más de 20 años de experiencia en la industria agrícola.",
+        "personalInfo": "Fecha de nacimiento:  Perú.",
+        "education": "Ingeniero Agrónomo, Universidad Nacional ",
+        "career": "Lidera proyectos en agricultura sostenible y tecnologías de cultivo avanzadas.",
+        "email": "juan@gmail.com",
+        "image": "/static/IMAGENES/IncogFoto.png",
+        "socialMedia": [
+            {"icon": "fab fa-whatsapp", "link": "https://wa.me/123456789"},
+            {"icon": "fab fa-facebook", "link": "https://facebook.com"},
+            {"icon": "fas fa-phone", "link": "tel:+123456789"}
+        ]
+    },
+    {
+        "name": "Ing. agrónomo MIRIAM YESICA RIVERA JALANOCA",
+        "role": "Trabajador 1",
+        "position": "Agrónomo especializado en cultivos tropicales y manejo de suelos.",
+        "personalInfo": "Fecha de nacimiento: Perú.",
+        "education": "Universidad Nacional ",
+        "career": "Colabora en la venta de los productos.",
+        "email": "",
+        "image": "/static/IMAGENES/IncogFoto.png",
+        "socialMedia": [
+            {"icon": "fab fa-whatsapp", "link": "https://wa.me/123456789"},
+            {"icon": "fab fa-facebook", "link": "https://facebook.com"},
+            {"icon": "fas fa-phone", "link": "tel:+123456789"}
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Consejos para el cuidado de plantas en verano",
+      "content": [
+        "Riego adecuado: Durante el verano, las plantas necesitan más agua debido al calor. Riega temprano en la mañana o al atardecer para evitar la evaporación rápida y permitir que las raíces absorban mejor la humedad.",
+        "Protégelas del sol intenso: Mueve las plantas en macetas a lugares con sombra parcial y utiliza mallas de sombreado o protectores si están expuestas al sol directo.",
+        "Evita el exceso de riego: Aunque es necesario mantenerlas hidratadas, un riego excesivo puede causar pudrición de raíces. Comprueba si el suelo está seco antes de regar.",
+        "Poda y mantenimiento: Retira hojas secas y ramas dañadas para estimular un crecimiento saludable. Las plantas podadas también tienen menor demanda de agua.",
+        "Fertilización ligera: Usa fertilizantes líquidos o compost en pequeñas cantidades para darles un refuerzo de nutrientes sin sobrecargar las raíces en esta temporada.",
+        "Controla plagas: El calor favorece la aparición de plagas como pulgones o ácaros. Inspecciona regularmente las hojas y tallos, y aplica insecticidas naturales si es necesario."
+      ],
+      "image": "/static/IMAGENES/CCPV.jpg"
+    },
+    {
+      "title": "Beneficios del uso de insecticidas orgánicos",
+      "content": [
+        "Amigables con el medio ambiente: Los insecticidas orgánicos están elaborados con ingredientes naturales, lo que minimiza el impacto en el suelo, el agua y la biodiversidad local.",
+        "Seguros para la salud: Al no contener químicos tóxicos, son más seguros para los humanos, animales y polinizadores como las abejas y mariposas.",
+        "Promueven un ecosistema equilibrado: Estos productos permiten que las plantas se desarrollen en un entorno más natural, sin destruir organismos beneficiosos para el suelo o depredadores naturales de plagas.",
+        "Residuos mínimos: A diferencia de los insecticidas químicos, los orgánicos no dejan residuos peligrosos en las plantas ni en los alimentos cultivados.",
+        "Aprobados para cultivos orgánicos: Son ideales para aquellos que desean mantener sus huertos o jardines certificados como orgánicos, cumpliendo con normativas ecológicas.",
+        "Menor resistencia de plagas: Las plagas suelen desarrollar resistencia más lentamente a los productos orgánicos, manteniéndolos efectivos por más tiempo."
+      ],
+      "image": "/static/IMAGENES/BDUIO.png"
+    },
+    {
+      "title": "Videos Tutoriales sobre el uso de nuestros productos",
+      "video": "https://www.youtube.com/embed/9gj-4rXUKU8",
+      "description": "Video de demostracion acerca de los usos de los productos de Agro Inversiones Fora"
+    },
+    {
+      "title": "Cómo Preparar Fertilizante Orgánico Casero",
+      "video": "https://www.youtube.com/embed/lFAlXkWK9X0",
+      "description": "Se explican los beneficios de cada material y se detallan los pasos para crear compost en casa"
+    }
+  ]
+  

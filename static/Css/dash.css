@@ -1,0 +1,209 @@
+/* Estilos Generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #2e7d32; /* Verde Oscuro */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Secciones */
+section {
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+}
+
+section h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+section button {
+  background-color: #66bb6a; /* Verde Claro */
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+section button:hover {
+  background-color: #43a047; /* Verde Medio */
+}
+
+/* Formularios */
+.formulario {
+  border-top: 2px solid #66bb6a;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.formulario form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario button {
+  width: calc(50% - 10px);
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Evita problemas de overflow */
+}
+
+.formulario textarea {
+  resize: vertical; /* Permite cambiar el tamaño solo verticalmente */
+}
+
+.formulario button {
+  width: auto;
+  background-color: #2e7d32;
+  color: #fff;
+}
+
+.formulario button:hover {
+  background-color: #43a047;
+}
+
+/* Botón Cancelar */
+.formulario button[type="button"] {
+  background-color: #e53935; /* Rojo */
+}
+
+.formulario button[type="button"]:hover {
+  background-color: #d32f2f;
+}
+
+/* Listas de Elementos */
+#listaProductos,
+#listaBlog,
+#informacionPropietario,
+#listaChatbot,
+#seccionesNosotros,
+#listaCorrecciones {
+  margin-top: 20px;
+}
+
+#listaProductos div,
+#listaBlog div,
+#informacionPropietario div,
+#listaChatbot div,
+#seccionesNosotros div,
+#listaCorrecciones div {
+  background-color: #e8f5e9; /* Verde Muy Claro */
+  border: 1px solid #c8e6c9;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#listaProductos div span,
+#listaBlog div span,
+#informacionPropietario div span,
+#listaChatbot div span,
+#seccionesNosotros div span,
+#listaCorrecciones div span {
+  flex-grow: 1;
+  margin-right: 10px;
+  text-align: left;
+}
+
+/* Botones en las Listas */
+#listaProductos div button,
+#listaBlog div button,
+#informacionPropietario div button,
+#listaChatbot div button,
+#seccionesNosotros div button,
+#listaCorrecciones div button {
+  background-color: #43a047;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#listaProductos div button:hover,
+#listaBlog div button:hover,
+#informacionPropietario div button:hover,
+#listaChatbot div button:hover,
+#seccionesNosotros div button:hover,
+#listaCorrecciones div button:hover {
+  background-color: #2e7d32;
+}
+
+/* Animación en botones */
+button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(66, 139, 66, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Formularios */
+  .formulario input,
+  .formulario textarea {
+    width: 100%;
+  }
+
+  /* Secciones y Listas */
+  section {
+    padding: 15px;
+    margin: 15px;
+  }
+
+  #listaProductos div,
+  #listaBlog div,
+  #informacionPropietario div,
+  #listaChatbot div,
+  #seccionesNosotros div,
+  #listaCorrecciones div {
+    padding: 10px;
+  }
+
+  /* Botones */
+  section button {
+    padding: 10px 14px;
+    font-size: 1rem;
+  }
+
+  /* Listas con botón */
+  #listaProductos div button,
+  #listaBlog div button,
+  #informacionPropietario div button,
+  #listaChatbot div button,
+  #seccionesNosotros div button,
+  #listaCorrecciones div button {
+    padding: 7px 12px;
+  }
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/static/Css/dash.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="icon" href="/static/IMAGENES/Screenshot_20240516_161854_Gallery-removebg-preview.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/static/IMAGENES/Screenshot_20240516_161854_Gallery-removebg-preview.png"
+    type="image/x-icon">
+</head>
+
+<body>
+  <header class="text-center mb-4">
+    <h1>Dashboard - Agro Inversiones Fora</h1>
+  </header>
+
+  <!-- Sección Productos -->
+  <section id="productos">
+    <h2>Gestión de Productos</h2>
+    <button class="btn btn-success" data-toggle="modal" data-target="#modalProducto">
+      <i class="fas fa-plus"></i> Agregar Producto
+    </button>
+
+    <!-- Modal del producto para la pagina  -->
+    <div class="modal fade" id="modalProducto" tabindex="-1" role="dialog" aria-labelledby="modalProductoLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalProductoLabel">Agregar Producto</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form id="productoForm">
+              <div class="form-group">
+                <input type="number" class="form-control" id="productoId" name="id" required
+                  placeholder="ID del Producto">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="nombre" required placeholder="Nombre">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="categoria" required placeholder="Categoría">
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" name="precio" required placeholder="Precio">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="descripcion" required placeholder="Descripción"></textarea>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="descripcion1" required
+                  placeholder="Descripción Adicional"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="file" class="form-control-file" name="imagen">
+              </div>
+              <button type="submit" class="btn btn-success">Guardar</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="listaProductos"></div>
+  </section>
+
+  <!-- Modal para agregar producto -->
+  <div class="modal fade" id="modalAgregarProducto" tabindex="-1" role="dialog"
+    aria-labelledby="modalAgregarProductoLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalAgregarProductoLabel">Agregar Producto</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="formAgregarProducto">
+            <div class="form-group">
+              <input type="number" class="form-control" id="productoId" name="id" required
+                placeholder="ID del Producto">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="nombre" required placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="categoria" required placeholder="Categoría">
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" name="precio" required placeholder="Precio">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="descripcion" required placeholder="Descripción"></textarea>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="descripcion1" required
+                placeholder="Descripción Adicional"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="file" class="form-control-file" name="imagen">
+            </div>
+            <button type="submit" class="btn btn-success">Guardar</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal para editar producto -->
+  <!-- Modal para editar producto -->
+  <div class="modal fade" id="modalEditarProducto" tabindex="-1" role="dialog"
+    aria-labelledby="modalEditarProductoLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalEditarProductoLabel">Editar Producto</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="formEditarProducto">
+            <div class="form-group">
+              <input type="number" class="form-control" id="editarProductoId" name="id" readonly required
+                placeholder="ID del Producto">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="editarNombre" name="nombre" required placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="editarCategoria" name="categoria" required
+                placeholder="Categoría">
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" id="editarPrecio" name="precio" required placeholder="Precio">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="editarDescripcion" name="descripcion" required
+                placeholder="Descripción"></textarea>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="editarDescripcion1" name="descripcion1" required
+                placeholder="Descripción Adicional"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="file" class="form-control-file" id="editarImagen" name="imagen">
+            </div>
+            <button type="submit" class="btn btn-success">Actualizar</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Sección Blog -->
+  <section id="blogPosts">
+    <h2>Lista de Blog Posts</h2>
+    <button class="btn btn-success" data-toggle="modal" data-target="#modalBlog">
+      <i class="fas fa-plus"></i> Agregar Post
+    </button>
+
+    <!-- Modal para agregar un blog -->
+    <div class="modal fade" id="modalBlog" tabindex="-1" role="dialog" aria-labelledby="modalBlogLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalBlogLabel">Agregar Blog Post</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form id="blogForm">
+              <div class="form-group">
+                <input type="text" class="form-control" name="title" required placeholder="Título">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="content" required placeholder="Contenido"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="url" class="form-control" name="video" placeholder="URL del Video">
+              </div>
+              <div class="form-group">
+                <input type="file" class="form-control-file" name="image" placeholder="Imagen">
+              </div>
+              <button type="submit" class="btn btn-success">Guardar</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="listaBlogPosts"></div>
+  </section>
+
+  <!-- Sección Información del Dueño -->
+  <section id="informacionDueño">
+    <h2>Información del Dueño</h2>
+    <button class="btn btn-success" data-toggle="modal" data-target="#modalInfoDueño">
+      <i class="fas fa-edit"></i> Editar Información
+    </button>
+
+    <!-- Modal para editar la información del dueño -->
+    <div class="modal fade" id="modalInfoDueño" tabindex="-1" role="dialog" aria-labelledby="modalInfoDueñoLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalInfoDueñoLabel">Editar Información del Dueño</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form id="formInfoDueño">
+              <div class="form-group">
+                <input type="text" class="form-control" id="editarNombreDueño" name="nombre" required
+                  placeholder="Nombre del Dueño">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="editarApellidoDueño" name="apellido" required
+                  placeholder="Apellido del Dueño">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="editarEmailDueño" name="email" required
+                  placeholder="Correo Electrónico">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="editarTelefonoDueño" name="telefono" required
+                  placeholder="Teléfono">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="editarDescripcionDueño" name="descripcion" required
+                  placeholder="Descripción"></textarea>
+              </div>
+              <button type="submit" class="btn btn-success">Actualizar</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="informacionDueñoContent">
+      <!-- Aquí se puede cargar la información del dueño -->
+    </div>
+  </section>
+
+  <!-- Modal para editar producto -->
+  <div class="modal fade" id="modalEditarProducto" tabindex="-1" role="dialog"
+    aria-labelledby="modalEditarProductoLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalEditarProductoLabel">Editar Producto</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="formEditarProducto">
+            <div class="form-group">
+              <input type="number" class="form-control" id="editarProductoId" name="id" readonly required
+                placeholder="ID del Producto">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="editarNombre" name="nombre" required placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="editarCategoria" name="categoria" required
+                placeholder="Categoría">
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" id="editarPrecio" name="precio" required placeholder="Precio">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="editarDescripcion" name="descripcion" required
+                placeholder="Descripción"></textarea>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="editarDescripcion1" name="descripcion1" required
+                placeholder="Descripción Adicional"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="file" class="form-control-file" id="editarImagen" name="imagen">
+            </div>
+            <button type="submit" class="btn btn-success">Actualizar</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="listaInfo"></div>
+  </section>
+
+  <!-- Sección Chatbot -->
+  <section id="chatbotResponses">
+    <h2>Gestión de Respuestas del Chatbot</h2>
+    <button class="btn btn-success" data-toggle="modal" data-target="#modalChatbot">
+      <i class="fas fa-plus"></i> Agregar Respuesta
+    </button>
+
+    <!-- Modal para agregar una respuesta del chatbot -->
+    <div class="modal fade" id="modalChatbot" tabindex="-1" role="dialog" aria-labelledby="modalChatbotLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalChatbotLabel">Agregar Respuesta del Chatbot</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form id="chatbotForm">
+              <div class="form-group">
+                <input type="text" class="form-control" name="pregunta" required placeholder="Pregunta">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="respuesta" required placeholder="Respuesta"></textarea>
+              </div>
+              <button type="submit" class="btn btn-success">Guardar</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="listaChatbotResponses"></div>
+  </section>
+
+  <footer class="mt-5 text-center">
+    <p>&copy; 2024 Agro Inversiones Fora. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="/static/js/dashboard.js"></script>
+</body>
+
+</html>
